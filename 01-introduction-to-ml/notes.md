@@ -18,6 +18,14 @@ Therefore, new feature values are presented to the model, and it makes **predict
 
 
 ## - 1.2 ML vs Rule-Based Systems
+The difference between ML and Rule-Based systems is explained with the example of a spam filter.
+
+Traditional Rule-Based systems are based on a set of characteristics (keywords, email length, etc.) that identify an email as spam or not. As spam emails keep changing over time the system needs to be upgraded making the process untractable due to the complexity of code maintenance as the system grows.
+
+ML can be used to solve this problem with the following steps:
+
+*1. Get Data
+
 ## - 1.3 Supervised Machine Learning
 ## - 1.4 CRISP-DM
 ## - 1.5 Model Selection Process
