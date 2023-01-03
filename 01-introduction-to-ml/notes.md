@@ -1,5 +1,5 @@
 # 1. Introduction to Machine Learning
-## - 1.1 Introduction to Machine Learning
+## 1.1 Introduction to Machine Learning
 
 [Video](https://www.youtube.com/watch?v=Crm_5n4mvmg&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=2)
 
@@ -17,7 +17,7 @@ ML is a process of **extracting patterns from data**, which is of two types:
 Therefore, new feature values are presented to the model, and it makes **predictions** from the learned patterns.
 
 
-## - 1.2 ML vs Rule-Based Systems
+## 1.2 ML vs Rule-Based Systems
 
 [Video](https://www.youtube.com/watchv=CeukwyUdaz8&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=3)
 
@@ -40,7 +40,27 @@ Each email can be encoded (converted) to the values of it's features and target.
 A machine learning algorithm can then be applied to the encoded emails to build a model that can predict whether a new email is spam or not spam. The **predictions are probabilities**, and to make a decision it is necessary to define a threshold to classify emails as spam or not spam.
 
 
-## - 1.3 Supervised Machine Learning
+## 1.3 Supervised Machine Learning
+[Video](https://www.youtube.com/watchv=j9kcEuGcC2Y&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=4)
+
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-13-supervised-machine-learning)
+
+In Supervised Machine Learning (SML) there are always labels associated with certain features. The model is trained, and then it can make predictions on new features. In this way, the model is taught by certain features and targets.
+* **Feature matrix (X)**: made of observations or objects (rows) and features (columns).
+* **Target variable (y)**: a vector with the target information we want to predict. For each row of X there's a value in y.
+The model can be represented as a function **g** that takes the X matrix as a parameter and tries to predict values as close as possible to y targets. The obtention of the g function is what it is called **training**.
+
+### Types of Supervised Machine Learning
+* **Regression:** the output is a number (car's price)
+* **Classification:** the output is a category (spam example).
+        * **Binary:** there are two categories.
+        * **Multiclass problems:** there are more than two categories.
+        * **Multilabel problems:** one data can be categorized by more than one labels.
+* **Ranking:** the output is the big scores associated with certain items. It is applied in recommender systems.
+
+Supervised machine learning is about teaching the model by showing different examples, and the goal is to come up with a function that takes the feature matrix as a parameter and makes predictions as close as possible to the y targets.
+
+
 ## - 1.4 CRISP-DM
 ## - 1.5 Model Selection Process
 ## - 1.6 Setting up the Environment
