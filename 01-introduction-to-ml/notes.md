@@ -18,16 +18,21 @@ Therefore, new feature values are presented to the model, and it makes **predict
 
 
 ## - 1.2 ML vs Rule-Based Systems
+
+[Video] (https://www.youtube.com/watchv=CeukwyUdaz8&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=3)
+
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-12-ml-vs-rulebased-systems)
+
 The difference between ML and Rule-Based systems is explained with the example of a spam filter.
 
 Traditional Rule-Based systems are based on a set of characteristics (keywords, email length, etc.) that identify an email as spam or not. As spam emails keep changing over time the system needs to be upgraded making the process untractable due to the complexity of code maintenance as the system grows.
 
 ML can be used to solve this problem with the following steps:
 
-###1. Get Data
+### 1. Get Data
 Emails from the user's spam folder and inbox gives examples of spam and non-spam.
 
-###2. Define and calculate features
+### 2. Define and calculate features
 Rules/characteristics from rule-based systems can be used as a starting point to define features for the ML model. The value of the target variable for each email can be defined based on where the email was obtained from (spam folder or inbox).
 Each email can be encoded (converted) to the values of it's features and target.
 
