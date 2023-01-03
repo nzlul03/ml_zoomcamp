@@ -52,10 +52,10 @@ The model can be represented as a function **g** that takes the X matrix as a pa
 
 ### Types of Supervised Machine Learning
 * **Regression:** the output is a number (car's price)
-* **Classification:** the output is a category (spam example).
-        * **Binary:** there are two categories.
-        * **Multiclass problems:** there are more than two categories.
-        * **Multilabel problems:** one data can be categorized by more than one labels.
+* **Classification:** the output is a category (spam example).\
+        * **Binary:** there are two categories.\
+        * **Multiclass problems:** there are more than two categories.\
+        * **Multilabel problems:** one data can be categorized by more than one labels.\
 * **Ranking:** the output is the big scores associated with certain items. It is applied in recommender systems.
 
 Supervised machine learning is about teaching the model by showing different examples, and the goal is to come up with a function that takes the feature matrix as a parameter and makes predictions as close as possible to the y targets.
