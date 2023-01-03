@@ -62,7 +62,8 @@ Supervised machine learning is about teaching the model by showing different exa
 
 
 ## 1.4 CRISP-DM
-[Video](https://www.youtube.com/watch v=dCa3JvmJbr0&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=5)
+[Video](https://www.youtube.com/watchv=dCa3JvmJbr0&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=5)
+
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-14-crispdm)
 
 CRISP-DM, which stands for Cross-Industry Standard Process for Data Mining, is an open standard process model that describes common approaches used by data mining experts. It is the most widely-used analytics model. The project was led by five companies: Integral Solutions Ltd (ISL), Teradata, Daimler AG, NCR Corporation and OHRA, an insurance company.
