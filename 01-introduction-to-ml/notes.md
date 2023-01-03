@@ -55,13 +55,27 @@ The model can be represented as a function **g** that takes the X matrix as a pa
 * **Classification:** the output is a category (spam example).\
         * **Binary:** there are two categories.\
         * **Multiclass problems:** there are more than two categories.\
-        * **Multilabel problems:** one data can be categorized by more than one labels.\
+        * **Multilabel problems:** one data can be categorized by more than one labels.
 * **Ranking:** the output is the big scores associated with certain items. It is applied in recommender systems.
 
 Supervised machine learning is about teaching the model by showing different examples, and the goal is to come up with a function that takes the feature matrix as a parameter and makes predictions as close as possible to the y targets.
 
 
-## - 1.4 CRISP-DM
+## 1.4 CRISP-DM
+[Video](https://www.youtube.com/watch v=dCa3JvmJbr0&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=5)
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-14-crispdm)
+
+CRISP-DM, which stands for Cross-Industry Standard Process for Data Mining, is an open standard process model that describes common approaches used by data mining experts. It is the most widely-used analytics model. The project was led by five companies: Integral Solutions Ltd (ISL), Teradata, Daimler AG, NCR Corporation and OHRA, an insurance company.
+
+1. **Business understanding:** An important question is if do we need ML for the project. The goal of the project has to be measurable. 
+2. **Data understanding:** Analyze available data sources, and decide if more data is required. 
+3. **Data preparation:** Clean data and remove noise applying pipelines, and the data should be converted to a tabular format, so we can put it into ML.
+4. **Modeling:** training Different models and choose the best one. Considering the results of this step, it is proper to decide if is required to add new features or fix data issues. 
+5. **Evaluation:** Measure how well the model is performing and if it solves the business problem. 
+6. **Deployment:** Roll out to production to all the users. The evaluation and deployment often happen together - **online evaluation**. 
+
+It is important to consider how well maintainable the project is.
+
 ## - 1.5 Model Selection Process
 ## - 1.6 Setting up the Environment
 ## - 1.7 Introduction to NumPy
