@@ -7,8 +7,8 @@
 - 1.3 Supervised Machine Learning &#10004;
 - 1.4 CRISP-DM &#10004;
 - 1.5 Model Selection Process &#10004;
-- 1.6 Setting up the Environment (Sunday)
-- 1.7 Introduction to NumPy (Sunday)
+- 1.6 Setting up the Environment &#10004;
+- 1.7 Introduction to NumPy &#10004;
 - 1.8 Linear Algebra Refresher (Sunday)
 - 1.9 Introduction to Pandas (Sunday)
 
