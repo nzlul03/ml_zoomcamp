@@ -99,7 +99,7 @@ It is important to consider how well maintainable the project is.
 
 ## - 1.5 Model Selection Process
 
-[Video(https://www.youtube.com/watchv=OH_R0Sl9neM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=6)
+[Video](https://www.youtube.com/watchv=OH_R0Sl9neM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=6)
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-15-model-selection-process)
 
