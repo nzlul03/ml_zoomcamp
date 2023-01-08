@@ -2,8 +2,8 @@
 
 ## Syllabus
 ## 1. Introduction to Machine Learning
-- 1.1 Introduction to Machine Learning
-- 1.2 ML vs Rule-Based Systems
+- 1.1 Introduction to Machine Learning &#10004;
+- 1.2 ML vs Rule-Based Systems &#10004;
 - 1.3 Supervised Machine Learning
 - 1.4 CRISP-DM
 - 1.5 Model Selection Process
