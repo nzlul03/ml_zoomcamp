@@ -63,6 +63,7 @@ The model can be represented as a function **g** that takes the X matrix as a pa
 
 ![image](https://user-images.githubusercontent.com/54148951/211186453-86fbd02f-9f06-4ac7-a9ce-b051615b24fc.png)
 
+![image](https://user-images.githubusercontent.com/54148951/211186507-40f5d996-0e37-4ca9-afbb-16e5d95cf9ec.png)
 
 
 ### Types of Supervised Machine Learning
