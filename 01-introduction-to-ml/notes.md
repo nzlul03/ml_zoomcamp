@@ -17,6 +17,9 @@ ML is a process of **extracting patterns from data**, which is of two types:
 * target (property to predict for unseen objects)
 
 Therefore, new feature values are presented to the model, and it makes **predictions** from the learned patterns.
+Predictions:
+![image](https://user-images.githubusercontent.com/54148951/211178519-553f1b36-c63c-4153-b221-d72efe570c9b.png)
+
 
 
 ## 1.2 ML vs Rule-Based Systems
