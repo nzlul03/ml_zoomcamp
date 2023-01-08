@@ -61,6 +61,10 @@ In Supervised Machine Learning (SML) there are always labels associated with cer
 * **Target variable (y)**: a vector with the target information we want to predict. For each row of X there's a value in y.
 The model can be represented as a function **g** that takes the X matrix as a parameter and tries to predict values as close as possible to y targets. The obtention of the g function is what it is called **training**.
 
+![image](https://user-images.githubusercontent.com/54148951/211186453-86fbd02f-9f06-4ac7-a9ce-b051615b24fc.png)
+
+
+
 ### Types of Supervised Machine Learning
 * **Regression:** the output is a number (car's price)
 * **Classification:** the output is a category (spam example).\
