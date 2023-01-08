@@ -98,6 +98,35 @@ It is the most widely-used analytics model. The project was led by five companie
 It is important to consider how well maintainable the project is.
 
 ## - 1.5 Model Selection Process
+
+[Video] (https://www.youtube.com/watchv=OH_R0Sl9neM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=6)
+
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-15-model-selection-process)
+
+### Which model to choose?
+- Logistic regression
+- Decision tree
+- Neural network
+- or many others
+
+The validation dataset is not used in training. There are feature matrices and y vectors
+for both training and validation datasets. 
+The model is fitted with training data, and it is used to predict the y values of the validation
+feature matrix. Then, the predicted y values (probabilities)
+are compared with the actual y values.
+
+**Multiple comparisons problem (MCP):** just by chance one model can be lucky and obtain
+good predictions because all of them are probabilistic.
+
+The test set can help to avoid the MCP. Obtaining the best model is done with the training and validation datasets, while the test dataset is used for assuring that the proposed best model is the best. 
+
+1. Split datasets in training, validation, and test. E.g. 60%, 20% and 20% respectively 
+2. Train the models
+3. Evaluate the models
+4. Select the best model 
+5. Apply the best model to the test dataset 
+6. Compare the performance metrics of validation and test 
+
 ## - 1.6 Setting up the Environment
 ## - 1.7 Introduction to NumPy
 ## - 1.8 Linear Algebra Refresher
