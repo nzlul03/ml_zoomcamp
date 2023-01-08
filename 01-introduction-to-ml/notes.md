@@ -131,6 +131,15 @@ The test set can help to avoid the MCP. Obtaining the best model is done with th
 ## - 1.7 Introduction to NumPy
 [Video](https://www.youtube.com/watch?v=Qa0-jYtRdbY&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=7)
 
+- Creating arrays
+- Multi-dimensional arrays
+- Randomly generated arrays
+- Element-wise operations
+  - Comparison operations
+  - Logical operations
+- Summarizing operations
+
+
 [Numpy Cheat sheet](https://www.datacamp.com/community/blog/python-numpy-cheat-sheet)
 
 ## - 1.8 Linear Algebra Refresher
