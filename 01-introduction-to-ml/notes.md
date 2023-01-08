@@ -82,7 +82,11 @@ Supervised machine learning is about teaching the model by showing different exa
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-14-crispdm)
 
-CRISP-DM, which stands for Cross-Industry Standard Process for Data Mining, is an open standard process model that describes common approaches used by data mining experts. It is the most widely-used analytics model. The project was led by five companies: Integral Solutions Ltd (ISL), Teradata, Daimler AG, NCR Corporation and OHRA, an insurance company.
+CRISP-DM, which stands for Cross-Industry Standard Process for Data Mining, is an open standard process model that describes common approaches used by data mining experts. \
+
+![image](https://user-images.githubusercontent.com/54148951/211186871-735ff278-3705-4d6d-846d-94d78a18f496.png)
+
+It is the most widely-used analytics model. The project was led by five companies: Integral Solutions Ltd (ISL), Teradata, Daimler AG, NCR Corporation and OHRA, an insurance company.
 
 1. **Business understanding:** An important question is if do we need ML for the project. The goal of the project has to be measurable. 
 2. **Data understanding:** Analyze available data sources, and decide if more data is required. 
