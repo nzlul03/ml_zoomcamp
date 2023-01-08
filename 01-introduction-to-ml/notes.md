@@ -30,7 +30,11 @@ Predictions:
 
 The difference between ML and Rule-Based systems is explained with the example of a spam filter.
 
-Traditional Rule-Based systems are based on a set of characteristics (keywords, email length, etc.) that identify an email as spam or not. As spam emails keep changing over time the system needs to be upgraded making the process untractable due to the complexity of code maintenance as the system grows.
+Traditional Rule-Based systems are based on a set of characteristics (keywords, email length, etc.) that identify an email as spam or not.__
+Rule Based System
+![image](https://user-images.githubusercontent.com/54148951/211178861-f2bb8293-4904-4254-bf8a-d37e82132627.png)
+
+As spam emails keep changing over time the system needs to be upgraded making the process untractable due to the complexity of code maintenance as the system grows.
 
 ML can be used to solve this problem with the following steps:
 
