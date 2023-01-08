@@ -6,7 +6,7 @@
 - 1.2 ML vs Rule-Based Systems &#10004;
 - 1.3 Supervised Machine Learning &#10004;
 - 1.4 CRISP-DM &#10004;
-- 1.5 Model Selection Process (Sunday)
+- 1.5 Model Selection Process &#10004;
 - 1.6 Setting up the Environment (Sunday)
 - 1.7 Introduction to NumPy (Sunday)
 - 1.8 Linear Algebra Refresher (Sunday)
