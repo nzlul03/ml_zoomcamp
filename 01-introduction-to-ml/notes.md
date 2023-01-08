@@ -129,5 +129,9 @@ The test set can help to avoid the MCP. Obtaining the best model is done with th
 
 ## - 1.6 Setting up the Environment
 ## - 1.7 Introduction to NumPy
+[Video](https://www.youtube.com/watch?v=Qa0-jYtRdbY&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=7)
+
+[Numpy Cheat sheet](https://www.datacamp.com/community/blog/python-numpy-cheat-sheet)
+
 ## - 1.8 Linear Algebra Refresher
 ## - 1.9 Introduction to Pandas
