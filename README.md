@@ -6,18 +6,18 @@
 - 1.2 ML vs Rule-Based Systems &#10004;
 - 1.3 Supervised Machine Learning &#10004;
 - 1.4 CRISP-DM &#10004;
-- 1.5 Model Selection Process
-- 1.6 Setting up the Environment
-- 1.7 Introduction to NumPy
-- 1.8 Linear Algebra Refresher
-- 1.9 Introduction to Pandas
+- 1.5 Model Selection Process (Sunday)
+- 1.6 Setting up the Environment (Sunday)
+- 1.7 Introduction to NumPy (Sunday)
+- 1.8 Linear Algebra Refresher (Sunday)
+- 1.9 Introduction to Pandas (Sunday)
 
 ## 2. Machine Learning for Regression
-- 2.1 Car price prediction project
-- 2.2 Data preparation
-- 2.3 Exploratory data analysis
-- 2.4 Setting up the validation framework
-- 2.5 Linear regression
+- 2.1 Car price prediction project (Monday)
+- 2.2 Data preparation (Monday)
+- 2.3 Exploratory data analysis (Monday)
+- 2.4 Setting up the validation framework (Monday)
+- 2.5 Linear regression (Monday)
 - 2.6 Linear regression: vector form
 - 2.7 Training linear regression: Normal equation
 - 2.8 Baseline model for car price prediction project
