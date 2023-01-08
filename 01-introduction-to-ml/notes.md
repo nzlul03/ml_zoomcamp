@@ -10,6 +10,8 @@ learns from data, represented as some **features** such as year, mileage, among 
 
 Then, the model is given new data (**without** the target) about cars and predicts their price (target).
 
+![image](https://user-images.githubusercontent.com/54148951/211178494-83bf407e-79d5-4972-8f6a-e6b6ef2a47a0.png)
+
 ML is a process of **extracting patterns from data**, which is of two types:
 * features (information about the object)
 * target (property to predict for unseen objects)
