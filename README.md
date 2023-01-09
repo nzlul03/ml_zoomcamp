@@ -11,6 +11,7 @@
 - 1.7 Introduction to NumPy &#10004;
 - 1.8 Linear Algebra Refresher &#10004;
 - 1.9 Introduction to Pandas &#10004;
+- Summary &#10004;
 
 ## 2. Machine Learning for Regression
 - 2.1 Car price prediction project (Monday, 9 Jan 2023)
