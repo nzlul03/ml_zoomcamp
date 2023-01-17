@@ -65,7 +65,7 @@ Long-tail distributions usually confuse the ML models, so the recommendation is 
 
 In general, the dataset is split into three parts: training, validation, and test. For each partition, we need to obtain feature matrices (X) and y vectors of targets. First, the size of partitions is calculated, records are shuffled to guarantee that values of the three partitions contain non-sequential records of the dataset, and the partitions are created with the shuffled indices.
 
-![image](![image](https://user-images.githubusercontent.com/54148951/212808752-9836728c-d5a5-4ef1-ba5a-4675d19dd97f.png))
+![image](https://user-images.githubusercontent.com/54148951/212808851-a17714d3-275f-445c-8c4a-f122287e0247.png)
 
 
 **Pandas attributes and methods:** 
