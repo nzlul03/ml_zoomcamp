@@ -15,7 +15,23 @@ This project is about the creation of a model for helping users to predict car p
 * Regularization
 * Using the model
 
+![image](https://user-images.githubusercontent.com/54148951/212797889-a8c5b30d-5af8-4879-86cc-4afca7d1a44d.png)
+
 ## 2.2 Data preparation
+
+[Video](https://www.youtube.com/watchv=Kd74oR4QWGM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=13)
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides)
+
+**Pandas attributes and methods**
+
+* pd.read_csv(<file_path_string>) - read csv files 
+* df.head() - take a look of the dataframe 
+* df.columns - retrieve colum names of a dataframe 
+* df.columns.str.lower() - lowercase all the letters 
+* df.columns.str.replace(' ', '_') - replace the space separator 
+* df.dtypes - retrieve data types of all features 
+* df.index - retrieve indices of a dataframe
+
 ## 2.3 Exploratory data analysis
 ## 2.4 Setting up the validation framework
 ## 2.5 Linear regression
