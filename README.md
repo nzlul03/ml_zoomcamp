@@ -14,13 +14,13 @@
 - Summary &#10004;
 
 ## 2. Machine Learning for Regression
-- 2.1 Car price prediction project (Monday, 9 Jan 2023)
-- 2.2 Data preparation (Monday, 9 Jan 2023)
-- 2.3 Exploratory data analysis (Monday, 9 Jan 2023)
-- 2.4 Setting up the validation framework (Monday, 9 Jan 2023)
-- 2.5 Linear regression (Monday, 9 Jan 2023)
-- 2.6 Linear regression: vector form (Monday, 9 Jan 2023)
-- 2.7 Training linear regression: Normal equation (Monday, 9 Jan 2023)
+- 2.1 Car price prediction project &#10004;
+- 2.2 Data preparation &#10004;
+- 2.3 Exploratory data analysis &#10004;
+- 2.4 Setting up the validation framework &#10004;
+- 2.5 Linear regression &#10004;
+- 2.6 Linear regression: vector form &#10004;
+- 2.7 Training linear regression: Normal equation &#10004;
 - 2.8 Baseline model for car price prediction project
 - 2.9 Root mean squared error
 - 2.10 Using RMSE on validation data
