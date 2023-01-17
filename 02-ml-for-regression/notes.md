@@ -79,6 +79,13 @@ In general, the dataset is split into three parts: training, validation, and tes
 * `np.random.seed()` - set a seed 
 
 ## 2.5 Linear regression
+
+[Video](https://www.youtube.com/watchv=Dn1eTQLsOdA&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=16)
+
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides)
+
+
+
 ## 2.6 Linear regression: vector form
 ## 2.7 Training linear regression: Normal equation
 ## 2.8 Baseline model for car price prediction project
