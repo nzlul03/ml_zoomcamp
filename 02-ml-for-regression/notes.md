@@ -35,6 +35,27 @@ This project is about the creation of a model for helping users to predict car p
 * df.index - retrieve indices of a dataframe
 
 ## 2.3 Exploratory data analysis
+
+[Video]()
+[Slides]()
+
+**Pandas attributes and methods:** 
+
+* df[col].unique() - returns a list of unique values in the series 
+* df[col].nunique() - returns the number of unique values in the series 
+* df.isnull().sum() - returns the number of null values in the dataframe 
+
+**Matplotlib and seaborn methods:**
+
+* %matplotlib inline - assure that plots are displayed in notebook's cells
+* sns.histplot() - show the histogram of a series
+
+**Numpy methods:**
+* np.log1p() - applies log transformation to a variable and adds one to each result 
+
+Long-tail distributions usually confuse the ML models, so the recommendation is to transform the target variable distribution to a normal one whenever possible.
+
+
 ## 2.4 Setting up the validation framework
 ## 2.5 Linear regression
 ## 2.6 Linear regression: vector form
