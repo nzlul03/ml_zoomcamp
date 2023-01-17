@@ -86,6 +86,8 @@ In general, the dataset is split into three parts: training, validation, and tes
 
 Model for solving regression tasks, in which the objective is to adjust a line for the data and make predictions on new values. The input of this model is the **feature matrix** `X` and a `y` **vector of predictions** is obtained, trying to be as close as possible to the **actual** `y` values. The linear regression formula is the sum of the bias term \( $w_0$ \), which refers to the predictions if there is no information, and each of the feature values times their corresponding weights as \( $x_{i1} \cdot w_1 + x_{i2} \cdot w_2 + ... + x_{in} \cdot w_n$ \).
 
+![image](https://user-images.githubusercontent.com/54148951/212811218-0ff29b20-bc39-45ef-9bcf-4c53ef9b3ee2.png)
+
 So the simple linear regression formula looks like:
 
 $g(x_i) = w_0 + x_{i1} \cdot w_1 + x_{i2} \cdot w_2 + ... + x_{in} \cdot w_n$.
