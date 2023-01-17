@@ -26,13 +26,13 @@ This project is about the creation of a model for helping users to predict car p
 
 **Pandas attributes and methods**
 
-* pd.read_csv(<file_path_string>) - read csv files 
-* df.head() - take a look of the dataframe 
-* df.columns - retrieve colum names of a dataframe 
-* df.columns.str.lower() - lowercase all the letters 
-* df.columns.str.replace(' ', '_') - replace the space separator 
-* df.dtypes - retrieve data types of all features 
-* df.index - retrieve indices of a dataframe
+* `pd.read_csv(<file_path_string>)` - read csv files 
+* `df.head()` - take a look of the dataframe 
+* `df.columns` - retrieve colum names of a dataframe 
+* `df.columns.str.lower()` - lowercase all the letters 
+* `df.columns.str.replace(' ', '_')` - replace the space separator 
+* `df.dtypes` - retrieve data types of all features 
+* `df.index` - retrieve indices of a dataframe
 
 ## 2.3 Exploratory data analysis
 
@@ -42,17 +42,17 @@ This project is about the creation of a model for helping users to predict car p
 
 **Pandas attributes and methods:** 
 
-* df[col].unique() - returns a list of unique values in the series 
-* df[col].nunique() - returns the number of unique values in the series 
-* df.isnull().sum() - returns the number of null values in the dataframe 
+* `df[col].unique()` - returns a list of unique values in the series 
+* `df[col].nunique()` - returns the number of unique values in the series 
+* `df.isnull().sum()` - returns the number of null values in the dataframe 
 
 **Matplotlib and seaborn methods:**
 
-* %matplotlib inline - assure that plots are displayed in notebook's cells
-* sns.histplot() - show the histogram of a series
+* `%matplotlib inline` - assure that plots are displayed in notebook's cells
+* `sns.histplot()` - show the histogram of a series
 
 **Numpy methods:**
-* np.log1p() - applies log transformation to a variable and adds one to each result 
+* `np.log1p()` - applies log transformation to a variable and adds one to each result 
 
 Long-tail distributions usually confuse the ML models, so the recommendation is to transform the target variable distribution to a normal one whenever possible.
 
