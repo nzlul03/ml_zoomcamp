@@ -37,6 +37,7 @@ This project is about the creation of a model for helping users to predict car p
 ## 2.3 Exploratory data analysis
 
 [Video](https://www.youtube.com/watchv=k6k8sQ0GhPM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=14)
+
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides)
 
 **Pandas attributes and methods:** 
