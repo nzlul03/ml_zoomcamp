@@ -143,6 +143,19 @@ Where:
 
 $X^TX$ is the Gram Matrix
 
+General implementation:
+~~~~python
+ def train_linear_regression(X, y):
+    ones = np.ones(X.shape[0])
+    X = np.column_stack([ones, X])
+
+    XTX = X.T.dot(X)
+    XTX_inv = np.linalg.inv(XTX)
+    w = XTX_inv.dot(X.T).dot(y)
+    
+    return w[0], w[1:]
+~~~~
+
 ## 2.8 Baseline model for car price prediction project
 ## 2.9 Root mean squared error
 ## 2.10 Using RMSE on validation data
