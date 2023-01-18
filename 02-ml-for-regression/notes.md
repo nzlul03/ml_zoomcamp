@@ -127,6 +127,22 @@ The formula of linear regression can be synthesized with the dot product between
 When all the records are included, the linear regression can be calculated with the dot product between ***feature matrix*** and ***vector of weights***, obtaining the `y` vector of predictions. 
 
 ## 2.7 Training linear regression: Normal equation
+[Video](https://www.youtube.com/watch?v=hx6nakY11g&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=18)
+
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides)
+
+Obtaining predictions as close as possible to $y$ target values requires the calculation of weights from the general Linear Regression equation.
+The feature matrix does not 
+have an inverse because it is not square, so it is required to obtain an approximate solution, which can be obtained using the **Gram matrix** (multiplication of feature matrix ($X$) and its transpose ($X^T$)). The vector of weights or coefficients $w$ obtained with this formula is the closest possible solution to the LR system.
+
+Normal Equation:
+
+$w$ = $(X^TX)^{-1}X^Ty$
+
+Where:
+
+$X^TX$ is the Gram Matrix
+
 ## 2.8 Baseline model for car price prediction project
 ## 2.9 Root mean squared error
 ## 2.10 Using RMSE on validation data
