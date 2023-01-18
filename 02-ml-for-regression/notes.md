@@ -183,6 +183,12 @@ $$RMSE = \sqrt{ \frac{1}{m} \sum {(g(x_i) - y_i)^2}}$$
 - $y_i$ is the actual
 - $m$ is the number of observations in the dataset (i.e. cars)
 
+~~~~python
+def rmse(y, y_pred):
+  se = (y - y_pred) ** 2
+  mse = se.mean()
+  return np.sqrt(mse)
+~~~~
 ## 2.10 Using RMSE on validation data
 ## 2.11 Feature engineering
 ## 2.12 Categorical variables
