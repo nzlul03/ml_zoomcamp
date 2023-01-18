@@ -117,6 +117,15 @@ If we look at the $\displaystyle\sum_{j=1}^{n} w_j \cdot x_{ij}$ part in the abo
 We need to assure that the result is shown on the untransformed scale by using the inverse function `exp()`. 
 
 ## 2.6 Linear regression: vector form
+
+[Video](https://www.youtube.com/watchv=YkyevnYyAww&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=17)
+
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides)
+
+The formula of linear regression can be synthesized with the dot product between features and weights. The feature vector includes the *bias* term with an *x* value of one, such as $w_{0}^{x_{i0}},\ where\ x_{i0} = 1\ for\ w_0$.
+
+When all the records are included, the linear regression can be calculated with the dot product between ***feature matrix*** and ***vector of weights***, obtaining the `y` vector of predictions. 
+
 ## 2.7 Training linear regression: Normal equation
 ## 2.8 Baseline model for car price prediction project
 ## 2.9 Root mean squared error
