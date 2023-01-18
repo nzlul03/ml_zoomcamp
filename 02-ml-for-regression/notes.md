@@ -190,6 +190,11 @@ def rmse(y, y_pred):
   return np.sqrt(mse)
 ~~~~
 ## 2.10 Using RMSE on validation data
+[Video](https://www.youtube.com/watch?v=rawGPXg2ofE&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=21)
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides)
+
+Calculation of the RMSE on validation partition of the dataset of car price prediction. In this way, we have a metric to evaluate the model's  performance.
+
 ## 2.11 Feature engineering
 ## 2.12 Categorical variables
 ## 2.13 Regularization
