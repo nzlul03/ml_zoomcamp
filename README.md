@@ -22,8 +22,8 @@
 - 2.6 Linear regression: vector form &#10004;
 - 2.7 Training linear regression: Normal equation &#10004;
 - 2.8 Baseline model for car price prediction project &#10004;
-- 2.9 Root mean squared error
-- 2.10 Using RMSE on validation data
+- 2.9 Root mean squared error &#10004;
+- 2.10 Using RMSE on validation data &#10004;
 - 2.11 Feature engineering
 - 2.12 Categorical variables
 - 2.13 Regularization
