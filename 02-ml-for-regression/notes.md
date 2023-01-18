@@ -168,7 +168,21 @@ General implementation:
 * Then we plot both predicted y and the actual y on the same histogram for a visual comparison.
 
 
-## 2.9 Root mean squared error
+## 2.9 Root mean squared error (RMSE)
+
+[Video](https://www.youtube.com/watch?v=0LWoFtbzNUM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=20)
+
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides)
+
+* In the previous lesson we found out our predictions were a bit off from the actual target values in the training dataset. We need a way to quantify how good or bad the model is. This is where RMSE can be of help.
+* Root Mean Squared Error (RMSE) is a way to evaluate regression models. It measures the error associated with the model being evaluated. This numerical figure then can be used to compare the models, enabling us to choose the one that gives the best predictions.
+
+$$RMSE = \sqrt{ \frac{1}{m} \sum {(g(x_i) - y_i)^2}}$$
+
+- $g(x_i)$ is the prediction
+- $y_i$ is the actual
+- $m$ is the number of observations in the dataset (i.e. cars)
+
 ## 2.10 Using RMSE on validation data
 ## 2.11 Feature engineering
 ## 2.12 Categorical variables
