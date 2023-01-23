@@ -231,6 +231,12 @@ To solve this issue, one alternative is adding a small number to the diagonal of
 This technique  works because the addition of small values to the diagonal makes it less likely to have duplicated columns. The regularization value is a hyperparameter of the model. After applying  regularization the model performance improved. 
 
 ## 2.14 Tuning the model
+[Video](https://www.youtube.com/watch?v=lW-YVxPgzQw&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=25)
+
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides)
+
+Tuning the model consisted of finding the best regularization hyperparameter value, using the validation partition of the dataset. The model was then trained with this regularization value.
+
 ## 2.15 Using the model
 ## 2.16 Car price prediction project summary
 
