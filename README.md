@@ -24,12 +24,12 @@
 - 2.8 Baseline model for car price prediction project &#10004;
 - 2.9 Root mean squared error &#10004;
 - 2.10 Using RMSE on validation data &#10004;
-- 2.11 Feature engineering
-- 2.12 Categorical variables
-- 2.13 Regularization
-- 2.14 Tuning the model
-- 2.15 Using the model
-- 2.16 Car price prediction project summary
+- 2.11 Feature engineering &#10004;
+- 2.12 Categorical variables &#10004;
+- 2.13 Regularization &#10004;
+- 2.14 Tuning the model &#10004;
+- 2.15 Using the model &#10004;
+- 2.16 Car price prediction project summary &#10004;
 
 ## 3. Machine Learning for Classification
 - 3.1 Churn prediction project
