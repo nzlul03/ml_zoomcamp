@@ -191,11 +191,20 @@ def rmse(y, y_pred):
 ~~~~
 ## 2.10 Using RMSE on validation data
 [Video](https://www.youtube.com/watch?v=rawGPXg2ofE&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=21)
+
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides)
 
 Calculation of the RMSE on validation partition of the dataset of car price prediction. In this way, we have a metric to evaluate the model's  performance.
 
 ## 2.11 Feature engineering
+[Video](https://www.youtube.com/watch?v=-aEShw4ftB0&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=22)
+
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides)
+
+Feature engineering is the process of creating new features
+The feature age of the car was included in the dataset, obtained with the subtraction of the maximum year of cars and each of the years of cars. 
+This new feature improved the model performance, measured with the RMSE and comparing the distributions of y target variable and predictions. 
+
 ## 2.12 Categorical variables
 ## 2.13 Regularization
 ## 2.14 Tuning the model
