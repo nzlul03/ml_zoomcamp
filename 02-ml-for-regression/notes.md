@@ -206,6 +206,14 @@ The feature age of the car was included in the dataset, obtained with the subtra
 This new feature improved the model performance, measured with the RMSE and comparing the distributions of y target variable and predictions. 
 
 ## 2.12 Categorical variables
+[Video](https://www.youtube.com/watch?v=sGLAToAAMa4&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=23)
+
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides)
+
+Categorical variables are typically strings, and pandas identifies them as object types. These variables need to be converted to a numerical form because ML models can interpret only numerical features. It is possible to incorporate certain categories from a feature, not necessarily all of them. 
+This transformation from categorical to numerical variables is known as One-Hot encoding.
+
+
 ## 2.13 Regularization
 ## 2.14 Tuning the model
 ## 2.15 Using the model
