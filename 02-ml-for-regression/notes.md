@@ -238,5 +238,13 @@ This technique  works because the addition of small values to the diagonal makes
 Tuning the model consisted of finding the best regularization hyperparameter value, using the validation partition of the dataset. The model was then trained with this regularization value.
 
 ## 2.15 Using the model
+[Video](https://www.youtube.com/watch?v=KT--uIJozes&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=26)
+
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-2-slides)
+
+After finding the best model and its parameters, it was trained with training and validation partitions and the final RMSE was calculated on the test partition. 
+
+Finally, the final model was used to predict the price of new cars.
+
 ## 2.16 Car price prediction project summary
 
