@@ -20,6 +20,25 @@ In brief, the main idea behind this project is to build a model with historical 
 
 
 ## 3.2 Data preparation
+[Video](https://www.youtube.com/watch?v=VSGGU9gYvdg&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR)
+
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification)
+
+**Commands, functions, and methods:** 
+
+* `!wget` - Linux shell command for downloading data 
+* `pd.read.csv()` - read csv files 
+* `df.head()` - take a look of the dataframe 
+* `df.head().T` - take a look of the transposed dataframe 
+* `df.columns` - retrieve column names of a dataframe 
+* `df.columns.str.lower()` - lowercase all the letters 
+* `df.columns.str.replace(' ', '_')` - replace the space separator 
+* `df.dtypes` - retrieve data types of all series 
+* `df.index` - retrive indices of a dataframe
+* `pd.to_numeric()` - convert a series values to numerical values. The `errors=coerce` argument allows making the transformation despite some encountered errors. 
+* `df.fillna()` - replace NAs with some value 
+* `(df.x == "yes").astype(int)` - convert x series of yes-no values to numerical values. 
+
 ## 3.3 Setting up the validation framework
 ## 3.4 EDA
 ## 3.5 Feature importance: Churn rate and risk ratio
