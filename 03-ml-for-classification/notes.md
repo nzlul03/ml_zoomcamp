@@ -27,6 +27,9 @@ In brief, the main idea behind this project is to build a model with historical 
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification)
 
+![image](https://user-images.githubusercontent.com/54148951/215046260-6b119e7b-f79f-4916-a570-831613db0a35.png)
+
+
 **Commands, functions, and methods:** 
 
 * `!wget` - Linux shell command for downloading data 
