@@ -8,6 +8,9 @@ The project aims to identify customers that are likely to churn or stoping to us
 customer has a score associated with the probability of churning. Considering this data, the
 company would send an email with discounts or other promotions to avoid churning. 
 
+![image](https://user-images.githubusercontent.com/54148951/215039805-3682b6ab-02a0-40a4-a593-34e1a2cfae8a.png)
+
+
 ![image](https://user-images.githubusercontent.com/54148951/213963054-b7a5d296-1c0f-46db-bb94-cd565add39a4.png)
 
 In the formula, yi is the model's prediction and belongs to {0,1}, being 0 the negative value or no churning, and 1 the positive value or churning. The output corresponds to the likelihood of
