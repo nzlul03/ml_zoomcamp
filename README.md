@@ -33,17 +33,17 @@
 
 ## 3. Machine Learning for Classification
 - 3.1 Churn prediction project &#10004;
-- 3.2 Data preparation (Friday, 27 Jan 2023)
-- 3.3 Setting up the validation framework (Friday, 27 Jan 2023)
-- 3.4 EDA (Friday, 27 Jan 2023)
-- 3.5 Feature importance: Churn rate and risk ratio (Friday, 27 Jan 2023)
-- 3.6 Feature importance: Mutual information (Friday, 27 Jan 2023)
-- 3.7 Feature importance: Correlation (Friday, 27 Jan 2023)
-- 3.8 One-hot encoding (Friday, 27 Jan 2023)
-- 3.9 Logistic regression (Friday, 27 Jan 2023)
-- 3.10 Training logistic regression with Scikit-Learn (Friday, 27 Jan 2023)
-- 3.11 Model interpretation (Friday, 27 Jan 2023)
-- 3.12 Using the model (Friday, 27 Jan 2023)
+- 3.2 Data preparation &#10004;
+- 3.3 Setting up the validation framework &#10004;
+- 3.4 EDA &#10004;
+- 3.5 Feature importance: Churn rate and risk ratio &#10004;
+- 3.6 Feature importance: Mutual information &#10004;
+- 3.7 Feature importance: Correlation &#10004;
+- 3.8 One-hot encoding &#10004;
+- 3.9 Logistic regression &#10004;
+- 3.10 Training logistic regression with Scikit-Learn &#10004;
+- 3.11 Model interpretation &#10004;
+- 3.12 Using the model &#10004;
 
 ## 4. Evaluation Metrics for Classification
 - 4.1 Evaluation metrics: session overview
