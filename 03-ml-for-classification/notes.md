@@ -99,8 +99,19 @@ The EDA for this project consisted of:
 
 ![image](https://user-images.githubusercontent.com/54148951/215252877-073df216-3f4e-4aba-b729-30af94ed1dd1.png)
 
-
 ## 3.6 Feature importance: Mutual information
+[Video](https://www.youtube.com/watch?v=_u2YaGT6RN0&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR)
+
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification)
+
+Mutual information is a concept from information theory, which measures how much we can learn about one variable if we know the value of another. In this project, we can think of this as how much do we learn about churn if we have the information from a particular feature. So, it is a measure of the importance of a categorical variable. 
+
+**Classes, functions, and methods:** 
+
+* `mutual_info_score(x, y)` - Scikit-Learn class for calculating the mutual information between the x target variable and y feature. 
+* `df[x].apply(y)` - apply a y function to the x series of the df dataframe. 
+* ` df.sort_values(ascending=False).to_frame(name='x')` - sort values in an ascending order and called the column as x. 
+
 ## 3.7 Feature importance: Correlation
 ## 3.8 One-hot encoding
 ## 3.9 Logistic regression 
