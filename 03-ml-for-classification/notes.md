@@ -131,7 +131,7 @@ If `r` is correlation coefficient, then the correlation between two variables is
 - LOW when `r` is between [0, -0.2) or [0, 0.2)
 - MEDIUM when `r` is between [-0.2, -0.5) or [0.2, 0.5)
 - STRONG when `r` is between [-0.5, -1.0] or [0.5, 1.0]
-![Uploading image.png…]()
+
 
 Positive Correlation vs. Negative Correlation
 * When `r` is positive, an increase in x will increase y.
