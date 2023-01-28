@@ -112,6 +112,10 @@ Mutual information is a concept from information theory, which measures how much
 * `df[x].apply(y)` - apply a y function to the x series of the df dataframe. 
 * ` df.sort_values(ascending=False).to_frame(name='x')` - sort values in an ascending order and called the column as x. 
 
+**The result of Mutual Information**
+![image](https://user-images.githubusercontent.com/54148951/215261654-32b07928-6da5-44c7-b9e6-3bcc58a94498.png)
+
+
 ## 3.7 Feature importance: Correlation
 ## 3.8 One-hot encoding
 ## 3.9 Logistic regression 
