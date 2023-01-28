@@ -150,6 +150,9 @@ Positive Correlation vs. Negative Correlation
 
 One-Hot Encoding allows encoding categorical variables in numerical ones. This method represents each category of a variable as one column, and a 1 is assigned if the value belongs to the category or 0 otherwise.
 
+![image](https://user-images.githubusercontent.com/54148951/215270388-5d92ee04-3397-42e3-990c-53649e9f1941.png)
+
+
 **Classes, functions, and methods:** 
 
 * `df[x].to_dict(oriented='records')` - convert x series to dictionaries, oriented by rows. 
