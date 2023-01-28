@@ -67,6 +67,10 @@ The EDA for this project consisted of:
 * Looking at the distribution of the target variable (churn)
 * Looking at numerical and categorical variables 
 
+**Churn Rate**
+![image](https://user-images.githubusercontent.com/54148951/215251578-0776db71-2248-413a-8e9e-e2537e3786b8.png)
+
+
 **Functions and methods:** 
 
 * `df.isnull().sum()` - retunrs the number of null values in the dataframe.  
