@@ -47,6 +47,7 @@ In brief, the main idea behind this project is to build a model with historical 
 
 ## 3.3 Setting up the validation framework
 [Video](https://www.youtube.com/watch?v=VSGGU9gYvdg&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR)
+
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification)
 
 **Classes, functions, and methods:** 
@@ -57,6 +58,22 @@ In brief, the main idea behind this project is to build a model with historical 
 * `del df['x']` - delete x series from a dataframe 
 
 ## 3.4 EDA
+[Video](https://www.youtube.com/watch?v=BNF1wjBwTQA&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR)
+
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification)
+
+The EDA for this project consisted of: 
+* Checking missing values 
+* Looking at the distribution of the target variable (churn)
+* Looking at numerical and categorical variables 
+
+**Functions and methods:** 
+
+* `df.isnull().sum()` - retunrs the number of null values in the dataframe.  
+* `df.x.value_counts()` returns the number of values for each category in x series. The `normalize=True` argument retrieves the percentage of each category. In this project, the mean of churn is equal to the churn rate obtained with the value_counts method. 
+* `round(x, y)` - round an x number with y decimal places
+* `df[x].nunique()` - returns the number of unique values in x series 
+
 ## 3.5 Feature importance: Churn rate and risk ratio
 ## 3.6 Feature importance: Mutual information
 ## 3.7 Feature importance: Correlation
