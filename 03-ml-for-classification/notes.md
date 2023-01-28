@@ -117,6 +117,28 @@ Mutual information is a concept from information theory, which measures how much
 
 
 ## 3.7 Feature importance: Correlation
+[Video](https://www.youtube.com/watch?v=mz1707QVxiY&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR)
+
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification)
+
+**Correlation coefficient** measures the degree of dependency between two variables. This value is negative if one variable grows while the other decreases, and it is positive if both variables increase. Depending on its size, the dependency between both variables could be low, moderate, or strong. It allows measuring the importance of numerical variables. 
+
+If `r` is correlation coefficient, then the correlation between two variables is:
+
+- LOW when `r` is between [0, -0.2) or [0, 0.2)
+- MEDIUM when `r` is between [-0.2, -0.5) or [2, 0.5)
+- STRONG when `r` is between [-0.5, -1.0] or [0.5, 1.0]
+
+Positive Correlation vs. Negative Correlation
+* When `r` is positive, an increase in x will increase y.
+* When `r` is negative, an increase in x will decrease y.
+* When `r` is 0, a change in x does not affect y.
+
+**Functions and methods:** 
+
+* `df[x].corrwith(y)` - returns the correlation between x and y series. This is a function from pandas.
+
+
 ## 3.8 One-hot encoding
 ## 3.9 Logistic regression 
 ## 3.10 Training logistic regression with Scikit-Learn
