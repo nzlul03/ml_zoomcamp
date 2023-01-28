@@ -123,11 +123,14 @@ Mutual information is a concept from information theory, which measures how much
 
 **Correlation coefficient** measures the degree of dependency between two variables. This value is negative if one variable grows while the other decreases, and it is positive if both variables increase. Depending on its size, the dependency between both variables could be low, moderate, or strong. It allows measuring the importance of numerical variables. 
 
+![image](https://user-images.githubusercontent.com/54148951/215262270-b200a814-07cc-4278-9cd1-6ce0cd569717.png)
+
 If `r` is correlation coefficient, then the correlation between two variables is:
 
 - LOW when `r` is between [0, -0.2) or [0, 0.2)
 - MEDIUM when `r` is between [-0.2, -0.5) or [0.2, 0.5)
 - STRONG when `r` is between [-0.5, -1.0] or [0.5, 1.0]
+![Uploading image.png…]()
 
 Positive Correlation vs. Negative Correlation
 * When `r` is positive, an increase in x will increase y.
