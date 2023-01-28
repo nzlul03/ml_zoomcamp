@@ -165,6 +165,8 @@ One-Hot Encoding allows encoding categorical variables in numerical ones. This m
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification)
 
+![image](https://user-images.githubusercontent.com/54148951/215272162-f5ea2d64-86ea-496c-87b9-27783e134fb5.png)
+
 Depending on what is the type of target variable, the supervised task can be regression or classification (binary or multiclass). Binary classification tasks can have negative (0) or positive (1) target values. The output of these models is the probability of xi belonging to the positive class.  
 
 Logistic regression is similar to linear regression because both models take into account the bias term and weighted sum of features. The difference between these models is that the output of linear regression is a real number, while logistic regression outputs a value between zero and one, applying the sigmoid function to the linear regression formula. 
