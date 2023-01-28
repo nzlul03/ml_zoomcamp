@@ -86,6 +86,8 @@ The EDA for this project consisted of:
 
 1. **Churn rate:** Difference between mean of the target variable and mean of categories for a feature. If this difference is greater than 0, it means that the category is less likely to churn, and if the difference is lower than 0, the group is more likely to churn. The larger differences are indicators that a variable is more important than others. 
 
+![image](https://user-images.githubusercontent.com/54148951/215252539-4a96df78-ef2e-46c0-8a92-b1bd8a64e359.png)
+
 2. **Risk ratio:** Ratio between mean of categories for a feature and mean of the target variable. If this ratio is greater than 1, the category is more likely to churn, and if the ratio is lower than 1, the category is less likely to churn. It expresses the feature importance in relative terms. 
 
 **Functions and methods:** 
