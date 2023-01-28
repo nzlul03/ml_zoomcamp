@@ -90,6 +90,9 @@ The EDA for this project consisted of:
 
 2. **Risk ratio:** Ratio between mean of categories for a feature and mean of the target variable. If this ratio is greater than 1, the category is more likely to churn, and if the ratio is lower than 1, the category is less likely to churn. It expresses the feature importance in relative terms. 
 
+![image](https://user-images.githubusercontent.com/54148951/215252752-5782280d-a98b-47d7-af26-354da14bca85.png)
+
+
 **Functions and methods:** 
 
 * `df.groupby('x').y.agg([mean()])` - returns a dataframe with mean of y series grouped by x series 
