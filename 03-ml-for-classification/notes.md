@@ -143,6 +143,18 @@ Positive Correlation vs. Negative Correlation
 
 
 ## 3.8 One-hot encoding
+[Video](https://www.youtube.com/watch?v=L-mjQFN5aR0&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR)
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification)
+
+One-Hot Encoding allows encoding categorical variables in numerical ones. This method represents each category of a variable as one column, and a 1 is assigned if the value belongs to the category or 0 otherwise.
+
+**Classes, functions, and methods:** 
+
+* `df[x].to_dict(oriented='records')` - convert x series to dictionaries, oriented by rows. 
+* `DictVectorizer().fit_transform(x)` - Scikit-Learn class for converting x dictionaries into a sparse matrix, and in this way doing the one-hot encoding. It does not affect the numerical variables. 
+* `DictVectorizer().get_feature_names()` -  returns the names of the columns in the sparse matrix.
+
+
 ## 3.9 Logistic regression 
 ## 3.10 Training logistic regression with Scikit-Learn
 ## 3.11 Model interpretation
