@@ -161,6 +161,23 @@ One-Hot Encoding allows encoding categorical variables in numerical ones. This m
 
 
 ## 3.9 Logistic regression
+[Video](https://www.youtube.com/watch?v=7KFE2ltnBAg&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR)
+
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification)
+
+Depending on what is the type of target variable, the supervised task can be regression or classification (binary or multiclass). Binary classification tasks can have negative (0) or positive (1) target values. The output of these models is the probability of xi belonging to the positive class.  
+
+Logistic regression is similar to linear regression because both models take into account the bias term and weighted sum of features. The difference between these models is that the output of linear regression is a real number, while logistic regression outputs a value between zero and one, applying the sigmoid function to the linear regression formula. 
+
+<p align="center">
+    <img src="https://render.githubusercontent.com/render/math?math=\large g\left(x_{i}\right) = Sigmoid\left(w_{0} %2B w_{1}x_{1} %2B w_{2}x_{2} %2B ... %2B w_{n}x_{n}\right)"/>
+</p>
+
+<p align="center">
+    <img src="https://render.githubusercontent.com/render/math?math=\large Sigmoid=\frac{1}{1%2Bexp\left( -z \right)}"/>
+</p>
+
+In this way, the sigmoid function allows transforming a score into a probability. 
 
 ## 3.10 Training logistic regression with Scikit-Learn
 ## 3.11 Model interpretation
