@@ -157,7 +157,8 @@ One-Hot Encoding allows encoding categorical variables in numerical ones. This m
 * `DictVectorizer().get_feature_names()` -  returns the names of the columns in the sparse matrix.
 
 
-## 3.9 Logistic regression 
+## 3.9 Logistic regression
+
 ## 3.10 Training logistic regression with Scikit-Learn
 ## 3.11 Model interpretation
 ## 3.12 Using the model
