@@ -96,7 +96,9 @@ The EDA for this project consisted of:
 **Functions and methods:** 
 
 * `df.groupby('x').y.agg([mean()])` - returns a dataframe with mean of y series grouped by x series 
-* `display(x)` displays an output in the cell of a jupyter notebook.
+
+![image](https://user-images.githubusercontent.com/54148951/215252877-073df216-3f4e-4aba-b729-30af94ed1dd1.png)
+
 
 ## 3.6 Feature importance: Mutual information
 ## 3.7 Feature importance: Correlation
