@@ -46,6 +46,16 @@ In brief, the main idea behind this project is to build a model with historical 
 * `(df.x == "yes").astype(int)` - convert x series of yes-no values to numerical values. 
 
 ## 3.3 Setting up the validation framework
+[Video](https://www.youtube.com/watch?v=VSGGU9gYvdg&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR)
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification)
+
+**Classes, functions, and methods:** 
+
+* `train_test_split` - Scikit-Learn class for splitting datasets. Linux shell command for downloading data. The `random_state` argument set a random seed for reproducibility purposes.  
+* `df.reset_index(drop=True)` - reset the indices of a dataframe and delete the previous ones. 
+* `df.x.values` - extract the values from x series
+* `del df['x']` - delete x series from a dataframe 
+
 ## 3.4 EDA
 ## 3.5 Feature importance: Churn rate and risk ratio
 ## 3.6 Feature importance: Mutual information
