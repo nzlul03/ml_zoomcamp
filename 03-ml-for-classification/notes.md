@@ -201,4 +201,12 @@ This video was about training a logistic regression model with Scikit-Learn, app
 * `LogisticRegression().predict_proba[x]` - make predictions on the x dataset, and returns two columns with their probabilities for the two categories - soft predictions
 
 ## 3.11 Model interpretation
+[Video](https://www.youtube.com/watch?v=Y-NGmnFpNuM&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR)
+
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-3-machine-learning-for-classification)
+
+We trained the logistic regression model with the full training dataset (training + validation), considering numerical and categorical features. Thus, predictions were made on the test dataset, and we evaluate the model using the accuracy metric. 
+
+In this case, the predictions of validation and test were similar, which means that the model is working well.
+
 ## 3.12 Using the model
