@@ -13,7 +13,10 @@ The fourth week of Machine Learning Zoomcamp is about different metrics to evalu
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-4-evaluation-metrics-for-classification)
 
-**Accurcy** measures the fraction of correct predictions. Specifically, it is the number of correct predictions divided by the total number of predictions. 
+**Accuracy** measures the fraction of correct predictions. Specifically, it is the number of correct predictions divided by the total number of predictions. 
+
+![image](https://user-images.githubusercontent.com/54148951/215947641-cc9acfd0-6bba-4c4a-a558-8bf20c1bc481.png)
+
 
 We can change the **decision threshold**, it should not be always 0.5. But, in this particular problem, the best decision cutoff, associated with the hightest accuracy (80%), was indeed 0.5. 
 
