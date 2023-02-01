@@ -46,8 +46,8 @@
 - 3.12 Using the model &#10004;
 
 ## 4. Evaluation Metrics for Classification
-- 4.1 Evaluation metrics: session overview (Friday, 3 Feb 2023)
-- 4.2 Accuracy and dummy model (Friday, 3 Feb 2023)
+- 4.1 Evaluation metrics: session overview &#10004;
+- 4.2 Accuracy and dummy model &#10004;
 - 4.3 Confusion table (Friday, 3 Feb 2023)
 - 4.4 Precision and Recall (Friday, 3 Feb 2023)
 - 4.5 ROC Curves (Friday, 3 Feb 2023)
