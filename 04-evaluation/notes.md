@@ -51,6 +51,8 @@ When comes to a prediction of an LR model, each falls into one of four different
     
 'Confusion Table' is a way to summarize the above results in a tabular format, as shown below: 
 
+![image](https://user-images.githubusercontent.com/54148951/216755353-470e99f0-a410-4221-93b5-3e7c7cf576ef.png)
+
 |**Actual :arrow_down:     Predictions:arrow_right:**|**Negative**|**Positive**|
 |:-:|---|---|
 |**Negative**|TN|FP|
