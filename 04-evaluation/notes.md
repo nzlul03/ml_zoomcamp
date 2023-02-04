@@ -32,9 +32,29 @@ Therefore, in this problem accuracy can not tell us how good is the model becaus
 
 ## 4.3 Confusion Table
 
-[Video]()
+[Video](https://www.youtube.com/watch?v=Jt2dDLSlBng&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR)
 
-[Slides]()
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-4-evaluation-metrics-for-classification)
+
+Confusion table is a way of measuring different types of errors and correct decisions that binary classifiers can make. Considering this information, it is possible to evaluate the quality of the model by different strategies.
+
+When comes to a prediction of an LR model, each falls into one of four different categories:
+
+* Prediction is that the customer WILL churn. This is known as the **Positive class**
+    * And Customer actually churned - Known as a **True Positive (TP)**
+    * But Customer actually did not churn - Knwon as a **False Positive (FP)**
+* Prediction is that the customer WILL NOT churn' - This is known as the **Negative class**
+    * Customer did not churn - **True Negative (TN)**
+    * Customer churned - **False Negative (FN)**
+    
+'Confusion Table' is a way to summarize the above results in a tabular format, as shown below: 
+
+|**Actual :arrow_down:     Predictions:arrow_right:**|**Negative**|**Positive**|
+|:-:|---|---|
+|**Negative**|TN|FP|
+|**Postive**|FN|TP| 
+
+The **accuracy** corresponds to the sum of TN and TP divided by the total of observations. 
 
 ## 4.4 Precision and Recall
 
