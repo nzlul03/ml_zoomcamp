@@ -74,6 +74,8 @@ The **accuracy** corresponds to the sum of TN and TP divided by the total of obs
 
 $$P = \cfrac{TP}{TP + FP}$$
 
+![image](https://user-images.githubusercontent.com/54148951/216757526-c15f52ad-1d8f-4afa-b57d-29b3b137d02b.png)
+
 
 **Recall** measures the fraction of correctly identified postive instances. It considers parts of the **postive and negative classes** (TP and FN - second row of confusion table). The formula of this metric is presented below: 
 
