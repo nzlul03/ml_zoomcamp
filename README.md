@@ -48,11 +48,11 @@
 ## 4. Evaluation Metrics for Classification
 - 4.1 Evaluation metrics: session overview &#10004;
 - 4.2 Accuracy and dummy model &#10004;
-- 4.3 Confusion table (Friday, 3 Feb 2023)
-- 4.4 Precision and Recall (Friday, 3 Feb 2023)
-- 4.5 ROC Curves (Friday, 3 Feb 2023)
-- 4.6 ROC AUC (Friday, 3 Feb 2023)
-- 4.7 Cross-Validation (Friday, 3 Feb 2023)
+- 4.3 Confusion table &#10004;
+- 4.4 Precision and Recall &#10004;
+- 4.5 ROC Curves (Sat, 4 Feb 2023)
+- 4.6 ROC AUC (Sat, 4 Feb 2023)
+- 4.7 Cross-Validation (Sat, 4 Feb 2023)
 
 ## 5. Deploying Machine Learning Models
 - 5.1 Intro / Session overview 
