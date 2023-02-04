@@ -60,6 +60,9 @@ When comes to a prediction of an LR model, each falls into one of four different
 
 The **accuracy** corresponds to the sum of TN and TP divided by the total of observations. 
 
+![image](https://user-images.githubusercontent.com/54148951/216756590-02e68f90-4908-4a98-8488-7484a0a1f67e.png)
+
+
 ## 4.4 Precision and Recall
 
 [Video]()
