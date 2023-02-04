@@ -38,6 +38,8 @@ Therefore, in this problem accuracy can not tell us how good is the model becaus
 
 Confusion table is a way of measuring different types of errors and correct decisions that binary classifiers can make. Considering this information, it is possible to evaluate the quality of the model by different strategies.
 
+![image](https://user-images.githubusercontent.com/54148951/216754909-1e3bd1a7-5cef-4ea8-967b-84c631d45419.png)
+
 When comes to a prediction of an LR model, each falls into one of four different categories:
 
 * Prediction is that the customer WILL churn. This is known as the **Positive class**
