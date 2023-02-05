@@ -83,6 +83,9 @@ $$P = \cfrac{TP}{TP + FP}$$
 
 $$R = \cfrac{TP}{TP + FN}$$
 
+![image](https://user-images.githubusercontent.com/54148951/216826656-e8983dab-d513-42e2-9e4c-c3331fd4297c.png)
+
+![image](https://user-images.githubusercontent.com/54148951/216826737-8cd87282-734b-4ac7-8a82-9763912deb63.png)
 
  In this problem, the precision and recall values were 67% and 54% respectively. So, these measures reflect some errors of our model that accuracy did not notice due to the **class imbalance**. 
  
