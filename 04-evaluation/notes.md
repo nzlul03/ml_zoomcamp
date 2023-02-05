@@ -101,6 +101,9 @@ $$R = \cfrac{TP}{TP + FN}$$
 Now, we see that our model is not as good as we thought.
 
 Accuracy can be misleading (especially when we have class imbalance cases). That's why it's useful to look at metrics like precision and recall.
+
+![image](https://user-images.githubusercontent.com/54148951/216828055-29c0e558-3e11-4ee1-b375-7e93c3982615.png)
+
  
 ## 4.5 ROC Curves
 
