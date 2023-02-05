@@ -89,6 +89,9 @@ $$R = \cfrac{TP}{TP + FN}$$
 
  In this problem, the precision and recall values were 67% and 54% respectively. So, these measures reflect some errors of our model that accuracy did not notice due to the **class imbalance**. 
  
+![image](https://user-images.githubusercontent.com/54148951/216826845-d6871a97-299a-4d8e-a7eb-5095436e9b56.png)
+ 
+ 
 ## 4.5 ROC Curves
 
 [Video]()
