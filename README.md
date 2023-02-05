@@ -50,18 +50,18 @@
 - 4.2 Accuracy and dummy model &#10004;
 - 4.3 Confusion table &#10004;
 - 4.4 Precision and Recall &#10004;
-- 4.5 ROC Curves (Sat, 4 Feb 2023)
-- 4.6 ROC AUC (Sat, 4 Feb 2023)
-- 4.7 Cross-Validation (Sat, 4 Feb 2023)
+- 4.5 ROC Curves &#10004;
+- 4.6 ROC AUC (Fri, 10 Feb 2023)
+- 4.7 Cross-Validation (Fri, 10 Feb 2023)
 
 ## 5. Deploying Machine Learning Models
-- 5.1 Intro / Session overview 
-- 5.2 Saving and loading the model
-- 5.3 Web services : Flask
-- 5.4 Serving the churn model with Flask
-- 5.5 Python virtual environment: Pipenv
-- 5.6 Environment management: Docker
-- 5.7 Deployment to the cloud: AWS Elastic Beanstalk (optional)
+- 5.1 Intro / Session overview (Fri, 10 Feb 2023)
+- 5.2 Saving and loading the model (Fri, 10 Feb 2023)
+- 5.3 Web services : Flask (Fri, 10 Feb 2023)
+- 5.4 Serving the churn model with Flask (Fri, 10 Feb 2023)
+- 5.5 Python virtual environment: Pipenv (Fri, 10 Feb 2023)
+- 5.6 Environment management: Docker (Fri, 10 Feb 2023)
+- 5.7 Deployment to the cloud: AWS Elastic Beanstalk (optional) (Fri, 10 Feb 2023)
 
 ## 6. Decision Trees and Ensemble Learning
 - 6.1 Credit risk scoring project
