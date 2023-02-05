@@ -117,15 +117,13 @@ ROC stands for Receiver Operating Characteristic, and this idea was applied duri
 
 **FPR** is the fraction of false positives (FP) divided by the total number of negatives (FP and TN - the first row of confusion matrix), and we want to `minimize` it. The formula of FPR is the following: 
 
-<p align="center">
-    <img src="https://render.githubusercontent.com/render/math?math=\large \frac{FP}{TN %2B FP}"/>
-</p>
+![image](https://user-images.githubusercontent.com/54148951/216828888-8f553701-c06d-4347-b3de-983aafd0380c.png)
+
 
 In the other hand, **TPR** or **Recall** is the fraction of true positives (TP) divided by the total number of positives (FN and TP - second row of confusion table), and we want to `maximize` this metric. The formula of this measure is presented below: 
 
-<p align="center">
-    <img src="https://render.githubusercontent.com/render/math?math=\large \frac{TP}{TP %2B FN}"/>
-</p>
+![image](https://user-images.githubusercontent.com/54148951/216828919-713a5d84-0dee-42b9-b33c-6e98d68ce364.png)
+
 
 ROC curves consider Recall and FPR under all the possible thresholds. If the threshold is 0 or 1, the TPR and Recall scores are the opposite of the threshold (1 and 0 respectively), but they have different meanings, as we explained before. 
 
