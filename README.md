@@ -50,7 +50,7 @@
 - 4.2 Accuracy and dummy model &#10004;
 - 4.3 Confusion table &#10004;
 - 4.4 Precision and Recall &#10004;
-- 4.5 ROC Curves &#10004;
+- 4.5 ROC Curves (Fri, 10 Feb 2023)
 - 4.6 ROC AUC (Fri, 10 Feb 2023)
 - 4.7 Cross-Validation (Fri, 10 Feb 2023)
 
@@ -114,5 +114,3 @@
 - 10.6 Deploying a simple service to Kubernetes
 - 10.7 Deploying TensorFlow models to Kubernetes
 - 10.8 Deploying to EKS
-
-
