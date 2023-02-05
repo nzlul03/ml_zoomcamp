@@ -80,7 +80,6 @@ $$P = \cfrac{TP}{TP + FP}$$
 
 **Recall** measures the fraction of correctly identified postive instances. It considers parts of the **postive and negative classes** (TP and FN - second row of confusion table). The formula of this metric is presented below: 
 
-
 $$R = \cfrac{TP}{TP + FN}$$
 
 ![image](https://user-images.githubusercontent.com/54148951/216826656-e8983dab-d513-42e2-9e4c-c3331fd4297c.png)
@@ -91,6 +90,17 @@ $$R = \cfrac{TP}{TP + FN}$$
  
 ![image](https://user-images.githubusercontent.com/54148951/216826899-5c1d06cc-1852-47ba-b1b5-efa8162dddc4.png)
  
+ **Recall**
+ - For 46% of people, who are churning, we failed to identify them 
+ 
+ **Accuracy**
+ - Pretty high number
+ - Our purpose : is to identify the churning users, so for this purpose, accuracy is not the best
+ metric, because when we look at this, we think, okay. Model is doing pretty well but when we look at precision and when we look at recall, we see that we failed to identify 46% users and we actually sent a promotional mail to 33% of users who were not going to churn, but they probably will take advantage of our discount.
+ 
+Now, we see that our model is not as good as we thought.
+
+Accuracy can be misleading (especially when we have class imbalance cases). That's why it's useful to look at metrics like precision and recall.
  
 ## 4.5 ROC Curves
 
