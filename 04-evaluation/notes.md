@@ -104,6 +104,8 @@ Accuracy can be misleading (especially when we have class imbalance cases). That
 
 ![image](https://user-images.githubusercontent.com/54148951/216828055-29c0e558-3e11-4ee1-b375-7e93c3982615.png)
 
+![image](https://user-images.githubusercontent.com/54148951/216828102-c51c6d15-09e6-4a59-a58e-1deafc2519a5.png)
+
  
 ## 4.5 ROC Curves
 
