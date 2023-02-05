@@ -76,6 +76,7 @@ $$P = \cfrac{TP}{TP + FP}$$
 
 ![image](https://user-images.githubusercontent.com/54148951/216757526-c15f52ad-1d8f-4afa-b57d-29b3b137d02b.png)
 
+![image](https://user-images.githubusercontent.com/54148951/216826288-89530230-c0e2-4593-9776-4ac431936dae.png)
 
 **Recall** measures the fraction of correctly identified postive instances. It considers parts of the **postive and negative classes** (TP and FN - second row of confusion table). The formula of this metric is presented below: 
 
