@@ -136,6 +136,7 @@ ROC curves consider Recall and FPR under all the possible thresholds.
 
 We need to compare the ROC curves against a point of reference to evaluate its performance, so the corresponding curves of random and ideal models are required. It is possible to plot the ROC curves with FPR and Recall scores vs thresholds, or FPR vs Recall. 
 
+![image](https://user-images.githubusercontent.com/54148951/217737863-b435f2a2-4999-48fd-8d0e-fad250982dad.png)
 
 **Classes and methods:** 
 * `np.repeat([x,y], [z,w])` - returns a numpy array with a z number of x values, and a w number of y values. 
