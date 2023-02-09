@@ -50,8 +50,8 @@
 - 4.2 Accuracy and dummy model &#10004;
 - 4.3 Confusion table &#10004;
 - 4.4 Precision and Recall &#10004;
-- 4.5 ROC Curves (Fri, 10 Feb 2023)
-- 4.6 ROC AUC (Fri, 10 Feb 2023)
+- 4.5 ROC Curves &#10004;
+- 4.6 ROC AUC &#10004;
 - 4.7 Cross-Validation (Fri, 10 Feb 2023)
 
 ## 5. Deploying Machine Learning Models
