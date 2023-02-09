@@ -164,7 +164,7 @@ In ther words, AUC can be interpreted as the probability that a randomly selecte
 
 **AUC Interpretation**
 
-![image](https://user-images.githubusercontent.com/54148951/217740671-092ff088-08c7-40a6-95b9-262b91360433.png)
+![image](https://user-images.githubusercontent.com/54148951/217740967-6855d9bc-7ec4-4346-a5d8-874022862b63.png)
 
 ## 4.7 Cross-Validation
 
