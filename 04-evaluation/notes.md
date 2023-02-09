@@ -152,6 +152,9 @@ The Area under the ROC curves can tell us **how good is our model with a single 
 
 ![image](https://user-images.githubusercontent.com/54148951/217738915-780ead17-a49d-446d-8bf1-5b6c4c52b446.png)
 
+![image](https://user-images.githubusercontent.com/54148951/217739214-1dcb9c5a-c565-4fc1-b8d2-54336ee89b47.png)
+
+
 In ther words, AUC can be interpreted as the probability that a randomly selected positive example has a greater score than a randomly selected negative example.
 
 **Classes and methods:** 
