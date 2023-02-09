@@ -144,9 +144,21 @@ We need to compare the ROC curves against a point of reference to evaluate its p
 
 ## 4.6 ROC AUC
 
-[Video]()
+[Video](https://www.youtube.com/watch?v=hvIQPAwkVZo&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR)
 
-[Slides]()
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-4-evaluation-metrics-for-classification)
+
+The Area under the ROC curves can tell us **how good is our model with a single value**. The AUROC of a random model is 0.5, while for an ideal one is 1. 
+
+![image](https://user-images.githubusercontent.com/54148951/217738915-780ead17-a49d-446d-8bf1-5b6c4c52b446.png)
+
+In ther words, AUC can be interpreted as the probability that a randomly selected positive example has a greater score than a randomly selected negative example.
+
+**Classes and methods:** 
+
+* `auc(x, y)` - sklearn.metrics class for calculating area under the curve of the x and y datasets. For ROC curves x would be false positive rate, and y true positive rate. 
+* `roc_auc_score(x, y)` - sklearn.metrics class for calculating area under the ROC curves of the x false positive rate and y true positive rate datasets.
+
 
 ## 4.7 Cross-Validation
 
