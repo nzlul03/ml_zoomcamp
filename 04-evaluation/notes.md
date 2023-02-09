@@ -162,6 +162,9 @@ In ther words, AUC can be interpreted as the probability that a randomly selecte
 * `auc(x, y)` - sklearn.metrics class for calculating area under the curve of the x and y datasets. For ROC curves x would be false positive rate, and y true positive rate. 
 * `roc_auc_score(x, y)` - sklearn.metrics class for calculating area under the ROC curves of the x false positive rate and y true positive rate datasets.
 
+**AUC Interpretation**
+
+![image](https://user-images.githubusercontent.com/54148951/217740671-092ff088-08c7-40a6-95b9-262b91360433.png)
 
 ## 4.7 Cross-Validation
 
