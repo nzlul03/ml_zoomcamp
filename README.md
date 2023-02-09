@@ -52,7 +52,7 @@
 - 4.4 Precision and Recall &#10004;
 - 4.5 ROC Curves &#10004;
 - 4.6 ROC AUC &#10004;
-- 4.7 Cross-Validation (Fri, 10 Feb 2023)
+- 4.7 Cross-Validation &#10004;
 
 ## 5. Deploying Machine Learning Models
 - 5.1 Intro / Session overview (Fri, 10 Feb 2023)
