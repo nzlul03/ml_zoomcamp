@@ -174,6 +174,8 @@ In ther words, AUC can be interpreted as the probability that a randomly selecte
 
 **Cross-validarions** refers to evaluating the same model on different subsets of a dataset, getting the average prediction, and spread within predictions. This method is applied in the **parameter tuning** step, which is the process of selecting the best parameter. 
 
+![image](https://user-images.githubusercontent.com/54148951/217747977-ebcf9cfa-50d2-4ab6-b676-8fa4f9514aaa.png)
+
 In this algorithm, the full training dataset is divided into **k partitions**, we train the model in k-1 partiions of this dataset and evaluate it on the remaining subset. Then, we end up evaluating the model in all the k folds, and we calculate the average evaluation metric for all the folds.  
 
 In general, if the dataset is large, we should use the hold-out validation dataset strategy. In the other hand, if the dataset is small or we want to know the standard deviation of the model across different folds, we can use the cross-validation approach. 
